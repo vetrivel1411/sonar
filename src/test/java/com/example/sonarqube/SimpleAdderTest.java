@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-public clas SimpleAdderTest {
+public class SimpleAdderTest {
 
     @Test
     @DisplayName("Should return correct sum of positive numbers")
