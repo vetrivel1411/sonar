@@ -10,4 +10,9 @@ class SonarqubeApplicationTests {
 	void contextLoads() {
 	}
 
+	@Test
+	void mainMethodShouldRunWithoutErrors() {
+		SonarqubeApplication.main(new String[]{});
+	}
+
 }
