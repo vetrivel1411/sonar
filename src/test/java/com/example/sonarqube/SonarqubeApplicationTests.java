@@ -3,6 +3,8 @@ package com.example.sonarqube;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
+
 @SpringBootTest
 class SonarqubeApplicationTests {
 
@@ -13,7 +15,6 @@ class SonarqubeApplicationTests {
 	@Test
 	void mainMethodShouldRunWithoutErrors() {
 		assertDoesNotThrow(() -> SonarqubeApplication.main(new String[]{}),
-			"Application should start without throwing exceptions");
+				"Application should start without throwing exceptions");
 	}
-
 }
