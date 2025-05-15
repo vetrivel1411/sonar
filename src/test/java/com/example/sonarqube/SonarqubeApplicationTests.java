@@ -14,8 +14,8 @@ class SonarqubeApplicationTests {
 
 	@Test
 	void mainMethodShouldRunWithoutErrors() {
-//		SonarqubeApplication.main(new String[]{});
-		assertDoesNotThrow(() -> SonarqubeApplication.main(new String[]{}),
-				"Application should start without throwing exceptions");
+		SonarqubeApplication.main(new String[]{});
+//		assertDoesNotThrow(() -> SonarqubeApplication.main(new String[]{}),
+//				"Application should start without throwing exceptions");
 	}
 }
